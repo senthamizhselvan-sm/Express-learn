@@ -63,9 +63,19 @@ const three = (req,res) =>{
 
 app.get(/^\/chain(.html)?$/, [one, two, three]);
 
-app.get(/^\/.*$/ , (req,res) => {
-    res.status(404).sendFile(path.join(__dirname , 'views' , '404.html'));
-});
+app.all(/^\/.*$/ , (req,res) =>{
+    res.status(404)
+    if(req.accepts('html')){
+        res.sendFile(path.join(__dirname , 'views' , '404.html'))
+    }
+    else if(req.accepts('json')){
+        res.json({'err' : '404 page not found'})
+    }
+    else{
+        res.type('text').send('404 page not found')
+    }
+})
+
 
 app.use(errorHandler)
 
