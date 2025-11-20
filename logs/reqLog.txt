@@ -4,3 +4,11 @@
 2025-11-20	18:55:14	a89cb729-b09c-44e0-bcd1-21923febcbf3	GET  	  undefined  	  /css/style.css 
 2025-11-20	19:01:49	812a424a-8a80-4ece-bdad-1fd8efc8a6a0	GET  	  undefined  	  / 
 2025-11-20	19:01:49	b525b32d-4728-433a-9e39-b81c907e58c4	GET  	  undefined  	  /css/style.css 
+2025-11-20	19:15:58	337e3a23-1b1d-4884-9fa8-b6836cd91f31	GET  	  https://www.google.com  	  / 
+2025-11-20	19:50:14	ba9206f2-3289-433e-910a-65909486fe77	GET  	  https://www.google.com  	  / 
+2025-11-20	19:51:30	8d4befca-78a1-43bd-97d3-b9f470683e07	GET  	  https://www.google.com  	  / 
+2025-11-20	20:16:48	96536192-1d70-40ad-8aa9-70c2bea19e74	GET  	  undefined  	  / 
+2025-11-20	20:17:16	f7ca73cc-ac4e-4a4a-9433-c63b6fd2fa28	GET  	  undefined  	  /.well-known/appspecific/com.chrome.devtools.json 
+2025-11-20	20:17:38	86ab0da1-f15e-4f48-b96d-5543e0934a31	GET  	  undefined  	  / 
+2025-11-20	20:17:38	f2c71333-2717-4ab2-82d2-1564169cd955	GET  	  undefined  	  /css/style.css 
+2025-11-20	20:17:38	c4c83b36-9030-4ec6-a2c5-e092f7f3ca3b	GET  	  undefined  	  /.well-known/appspecific/com.chrome.devtools.json 
