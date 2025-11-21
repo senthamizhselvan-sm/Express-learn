@@ -7,6 +7,8 @@ const {errorHandler} = require('./middleware/errorHandler.js')
 const PORT = process.env.PORT || 3500;
 
 app.use(logger)
+app.use('/' , require('./Router/root'));
+app.use('/subdir' , require('./Router/subdir.js'));
 
 const whiteLists = ['https://www.yoursite.com' , 'http://localhost:3500'];
 
@@ -26,19 +28,8 @@ app.use(express.urlencoded({ extended : false}))
 app.use(express.json())
 app.use(express.static(path.join(__dirname , '/public')));
 
-app.get(/^\/$|\/index(.html)?/, (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'index.html'));
-});
 
-app.get(/^\/new-page(\.html)?$/ , (req,res) => {
-    res.sendFile(path.join(__dirname , 'views' , 'new-page.html'));
-});
-
-app.get(/^\/old-page(\.html)?$/ , (req,res) => {
-    res.redirect(301,'/new-page.html');
-});
-
-app.get(/^\/about(.html)?$/ , (req,res,next) => {
+/* app.get(/^\/about(.html)?$/ , (req,res,next) => {
     console.log("try to loading the page");
     next();
 }, (req,res) => {
@@ -62,6 +53,7 @@ const three = (req,res) =>{
 }
 
 app.get(/^\/chain(.html)?$/, [one, two, three]);
+ */
 
 app.all(/^\/.*$/ , (req,res) =>{
     res.status(404)

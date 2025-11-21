@@ -12,3 +12,17 @@
 2025-11-20	20:17:38	86ab0da1-f15e-4f48-b96d-5543e0934a31	GET  	  undefined  	  / 
 2025-11-20	20:17:38	f2c71333-2717-4ab2-82d2-1564169cd955	GET  	  undefined  	  /css/style.css 
 2025-11-20	20:17:38	c4c83b36-9030-4ec6-a2c5-e092f7f3ca3b	GET  	  undefined  	  /.well-known/appspecific/com.chrome.devtools.json 
+2025-11-21	19:06:36	aefeac47-52ed-4685-9d51-b9ab99120cbb	GET  	  undefined  	  / 
+2025-11-21	19:06:36	64401f4c-e108-49b5-ac96-85e11102cc2b	GET  	  undefined  	  /css/style.css 
+2025-11-21	19:06:36	a7344b77-aad1-4cfb-9242-9a8f88422feb	GET  	  undefined  	  /favicon.ico 
+2025-11-21	19:06:43	6f713adb-1f13-4479-b3e4-e4a00482f1e2	GET  	  undefined  	  /subdir 
+2025-11-21	19:06:49	01c23176-a068-43c2-b4df-1de4b9762041	GET  	  undefined  	  /subdir/test 
+2025-11-21	19:17:06	d43b9fad-ebc6-4575-88e5-a2f98679f5c1	GET  	  undefined  	  / 
+2025-11-21	19:17:31	0ca45926-619e-445c-8e8a-5db026df4d6d	GET  	  undefined  	  / 
+2025-11-21	19:17:31	da8246d1-5a1f-4753-ac1b-21185b93c985	GET  	  undefined  	  /css/style.css 
+2025-11-21	19:17:36	8eda8668-2349-49c4-81bd-1ed36905b3f6	GET  	  undefined  	  /new-page 
+2025-11-21	19:17:36	954e5cbb-ef9b-42bc-8e8a-b2939e7e6a80	GET  	  undefined  	  /css/style.css 
+2025-11-21	19:17:36	a3a16041-648c-488e-8da8-5b215d1ba0b6	GET  	  undefined  	  /img/img1.jpg 
+2025-11-21	19:17:47	2f7af8d5-99eb-4788-93a4-7003490889d5	GET  	  undefined  	  /new-page.html 
+2025-11-21	19:17:47	f8b847ed-80f3-4056-a336-1f61ac03df60	GET  	  undefined  	  /css/style.css 
+2025-11-21	19:17:47	80d08151-5356-4091-9961-b9e42c58e4e2	GET  	  undefined  	  /img/img1.jpg 
