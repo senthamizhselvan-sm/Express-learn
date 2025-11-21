@@ -32,3 +32,8 @@
 2025-11-21	20:56:11	1f05c42e-2de1-4b48-8997-93fddbb0fbc6	POST  	  undefined  	  /employee 
 2025-11-21	20:56:22	afcde3e8-87ab-42fb-ad43-654217f49afb	POST  	  undefined  	  /employee 
 2025-11-21	21:00:07	6928d0b6-7042-4ae0-815e-93e4218aff48	POST  	  undefined  	  /employee 
+2025-11-21	22:48:58	2c273394-b236-4638-a02e-efb8d4ff2331	GET  	  undefined  	  /employee 
+2025-11-21	22:49:01	ba722186-7013-4a51-a564-1e32747eb1c2	POST  	  undefined  	  /employee 
+2025-11-21	22:49:27	3a4609cd-cc91-4e0b-98ff-24b9935a5da3	DELETE  	  undefined  	  /employee 
+2025-11-21	22:49:41	fb824114-6a11-49c6-83b8-dae3a6b11625	DELETE  	  undefined  	  /employee 
+2025-11-21	22:49:52	c01a69d6-ebc4-4856-ab37-bfdc6fda60f4	DELETE  	  undefined  	  /employee 
