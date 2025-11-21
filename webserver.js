@@ -4,29 +4,12 @@ const path = require('path')
 const cors = require('cors')
 const {logger} = require('./middleware/logEvents.js')
 const {errorHandler} = require('./middleware/errorHandler.js')
+const corsOptions = require('./config/corsOptions.js');
 const PORT = process.env.PORT || 3500;
 
 app.use(logger)
-
-// Built-in middleware to handle urlencoded form data
 app.use(express.urlencoded({ extended : false}))
-
-// Built-in middleware for json
 app.use(express.json())
-
-// Cross Origin Resource Sharing
-const whiteLists = ['https://www.yoursite.com' , 'http://localhost:3500'];
-
-const corsOptions = {
-    origin : (origin , callback) =>{
-        if(whiteLists.indexOf(origin) !== -1 || !origin) {
-            callback(null,true)
-        } else{
-            callback(new Error('not allowed by CORS'))
-        }
-    },
-    OptionssuccessStatus : 200
-}
 app.use(cors(corsOptions))
 
 // Routes
