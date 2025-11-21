@@ -7,9 +7,14 @@ const {errorHandler} = require('./middleware/errorHandler.js')
 const PORT = process.env.PORT || 3500;
 
 app.use(logger)
-app.use('/' , require('./Router/root'));
-app.use('/subdir' , require('./Router/subdir.js'));
 
+// Built-in middleware to handle urlencoded form data
+app.use(express.urlencoded({ extended : false}))
+
+// Built-in middleware for json
+app.use(express.json())
+
+// Cross Origin Resource Sharing
 const whiteLists = ['https://www.yoursite.com' , 'http://localhost:3500'];
 
 const corsOptions = {
@@ -24,9 +29,12 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
-app.use(express.urlencoded({ extended : false}))
-app.use(express.json())
-app.use(express.static(path.join(__dirname , '/public')));
+// Routes
+app.use('/' , require('./Router/root'));
+app.use('/subdir' , require('./Router/subdir.js'));
+app.use('/employee' , require('./Router/api/employee.js'))
+app.use('/',express.static(path.join(__dirname , '/public')));
+app.use('/subdir',express.static(path.join(__dirname , '/public')));
 
 
 /* app.get(/^\/about(.html)?$/ , (req,res,next) => {

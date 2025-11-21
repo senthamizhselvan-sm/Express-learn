@@ -1,3 +1,5 @@
 2025-11-20	20:16:48	168768ef-bcd0-46ef-b19b-50a9622f877f	Error : not allowed by CORS 
 2025-11-20	20:17:16	b72a10f0-cd92-4e9d-ba84-61a1fae87bb6	Error : not allowed by CORS 
 2025-11-21	19:17:06	5e137cb2-89df-4c7f-baf3-c944ef8b2579	Error : ENOENT: no such file or directory, stat 'E:\Express-learn\Router\views\index.html' 
+2025-11-21	20:56:11	ace92bde-3556-4ed1-aed9-39002f71dd66	TypeError : Cannot read properties of undefined (reading 'firstname') 
+2025-11-21	20:56:22	196340cf-f456-4a11-acfe-696d8ecb06c8	TypeError : Cannot read properties of undefined (reading 'firstname') 

@@ -26,3 +26,9 @@
 2025-11-21	19:17:47	2f7af8d5-99eb-4788-93a4-7003490889d5	GET  	  undefined  	  /new-page.html 
 2025-11-21	19:17:47	f8b847ed-80f3-4056-a336-1f61ac03df60	GET  	  undefined  	  /css/style.css 
 2025-11-21	19:17:47	80d08151-5356-4091-9961-b9e42c58e4e2	GET  	  undefined  	  /img/img1.jpg 
+2025-11-21	20:45:37	4551dcfa-a91c-4913-8bc2-f8df2efa3b3a	GET  	  undefined  	  /employee 
+2025-11-21	20:54:17	aece2ead-26b7-485b-8757-0e0f5089c34b	GET  	  undefined  	  /employee 
+2025-11-21	20:55:57	5b0d993e-bb7b-441e-a8b4-ce2a1ea765ea	POST  	  undefined  	  /localhost:3500/employee 
+2025-11-21	20:56:11	1f05c42e-2de1-4b48-8997-93fddbb0fbc6	POST  	  undefined  	  /employee 
+2025-11-21	20:56:22	afcde3e8-87ab-42fb-ad43-654217f49afb	POST  	  undefined  	  /employee 
+2025-11-21	21:00:07	6928d0b6-7042-4ae0-815e-93e4218aff48	POST  	  undefined  	  /employee 
